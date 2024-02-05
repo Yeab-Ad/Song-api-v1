@@ -1,11 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "song-api",
   "version": "1.0.0",
-  "description": "my portfolio",
+  "description": "my Song-api",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
