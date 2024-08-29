@@ -17,6 +17,7 @@ const listSongs = async (req, res) => {
   try {
     const { genre, artist, title } = req.query;
     const filterObject = { delete_at: null };
+    console.log(req.query);
 
     if (genre) {
       filterObject.genre = { $regex: new RegExp(genre, "i") };

@@ -12,4 +12,4 @@ mongoose.connect(process.env.MONGODB_URI, (err) => {
   }
 });
 
-require("../Models/employee");
+require("../Models/Song");
